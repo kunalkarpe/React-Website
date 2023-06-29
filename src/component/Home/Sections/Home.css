@@ -1,0 +1,65 @@
+/* This is for our products */
+.card-w {
+    width: 16rem;
+}
+
+.home-prdct-img {
+    height: 35vh;
+}
+
+.card-w:hover {
+    border: 10px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 40px 60px rgba(33, 33, 33, .2);
+}
+
+.heading {
+    background-color: #ec9f5c;
+}
+
+/* This is for Our Services */
+.section1 {
+    background-color: #ebcfd6;
+}
+
+.truck:hover {
+    cursor: pointer;
+    transition: all 1s ease;
+    transform: translateX(30px);
+
+}
+
+.payment {
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+.payment:hover {
+    transform: rotate(10deg);
+}
+
+.money:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    transform: translateY(13px);
+}
+
+.icon-width {
+    width: 4vw
+}
+
+/* This is for Trusted Companies */
+
+.rotate:hover {
+    cursor: pointer;
+    transition: all 1s ease;
+    transform: rotateY(360deg);
+}
+
+.rotateX:hover {
+    cursor: pointer;
+    transition: all 1s ease;
+    transform: rotateX(360deg);
+}

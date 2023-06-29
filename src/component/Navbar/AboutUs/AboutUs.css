@@ -1,0 +1,6 @@
+.i-frame {
+    width: 600px;
+    height: 450px;
+    border: none;
+    width: -webkit-fill-available;
+}
